@@ -30,6 +30,10 @@ const Contact = () => {
             Envoyez un message
           </button>
         </form>
+
+        <a href="#contact" className="scroll__down">
+          ▲
+        </a>
       </div>
     </section>
   )
