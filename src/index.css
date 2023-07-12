@@ -55,8 +55,17 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: var(--color-primary);
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 h5 {
