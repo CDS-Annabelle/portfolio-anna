@@ -1,9 +1,13 @@
-import './App.scss'
+import Header from './components/Header/Header'
+import Nav from './components/Nav/Nav'
+import Footer from './components/Footer/Footer'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <Header />
+      <Nav />
+      <Footer />
     </div>
   )
 }
