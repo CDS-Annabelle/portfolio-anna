@@ -1,16 +1,43 @@
 .container.contact__container {
-    width: 40%;
-    margin: auto;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 41%;
 }
 
+.contact__options {
+    display: flex;
+    align-items: center;
+}
 
-/* =============== SCROLL DOWN ============== */
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    font-weight: 300;
-    font-size: 1.9rem;
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 2.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option h5 {
+    color: var(--color-light);
+}
+
+.sendMessage {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--color-primary);
+    transition: var(--transition);
 }
 
 /* ================= FORM ================== */
