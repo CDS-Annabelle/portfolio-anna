@@ -1,7 +1,13 @@
 .headerSocials {
-    display: grid;
+    display: flex;
     gap: 1.5rem;
+    z-index: 1;
+    left: 2%;
+    top: 15%;
+    margin-left: 25px;
+    margin-top: 10px;
 }
+
 
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
@@ -9,8 +15,7 @@
 
     .headerSocials {
         display: flex;
-        position: absolute;
-        left: 0;
-        top: 0;
+        justify-content: center;
+        margin: 0;
     }
 }

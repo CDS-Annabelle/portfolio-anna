@@ -5,18 +5,27 @@ import Nav from '../Nav/Nav'
 
 const Header = () => {
   return (
-    <header>
+    <>
       <Nav />
-      <Socials />
-      <div className={styles.topBar}>
-        <div className={styles.subBar}>
-          <div className={styles.headerContainer}>
-            <h1>Portfolio</h1>
-            <h2 className={styles.subTitle}>Intégrateur / Développeur Web</h2>
+      <header>
+        <Socials />
+
+        <div className={styles.containerHeader} id="header">
+          <div className={styles.box}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div className={styles.content}>
+              <h1>Portfolio</h1>
+              <h2 className={styles.subTitle}>Intégrateur / Développeur Web</h2>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+
+        <div className={styles.subBar}></div>
+      </header>
+    </>
   )
 }
 
