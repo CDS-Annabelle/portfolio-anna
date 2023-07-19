@@ -1,0 +1,56 @@
+.topBar {
+  background: rgb(66 66 66 / 70%);
+  /* width: max-content; */
+  z-index: 2;
+  /* position: fixed; */
+  right: 8%;
+  /* transform: translateX(-20%); */
+  display: grid;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  margin-top: -3rem;
+}
+
+.subBar {
+  background: rgb(80 80 80 / 90%);
+  z-index: 2;
+  right: 8%;
+  margin-top: -1rem;
+  height: 80px;
+}
+
+
+header {
+  padding-top: 1.5rem;
+  overflow: hidden;
+}
+
+.headerContainer {
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.subTitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  header {
+    padding-top: 5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+    padding-top: 5rem;
+  }
+}

@@ -1,13 +1,11 @@
 nav {
-    background: rgb(0 0 0 / 80%);
-    width: max-content;
-    padding: 0.7rem 1.7rem;
+    background: rgb(66 66 66 / 70%);
+    /* width: max-content; */
     z-index: 2;
     position: fixed;
-    right: 5%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 0.8rem;
+    right: 12%;
+    /* transform: translateX(-20%); */
+    /* display: grid; */
     border-radius: 3rem;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);

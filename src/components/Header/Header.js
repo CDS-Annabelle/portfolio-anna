@@ -1,20 +1,19 @@
 import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/photo-anna-06-06-2023.jpg'
-import HeaderSocial from './HeaderSocials'
+import styles from './Header.module.css'
+import Socials from '../Socials/Socials'
+import Nav from '../Nav/Nav'
 
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
-        <h1>Annabelle</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
-        <CTA />
-        <HeaderSocial />
-
-        <div className="me">
-          <img className="anna" src={ME} alt="portfolio Annabelle Gaffet" />
+      <Nav />
+      <Socials />
+      <div className={styles.topBar}>
+        <div className={styles.subBar}>
+          <div className={styles.headerContainer}>
+            <h1>Portfolio</h1>
+            <h2 className={styles.subTitle}>Intégrateur / Développeur Web</h2>
+          </div>
         </div>
       </div>
     </header>

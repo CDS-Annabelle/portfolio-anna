@@ -1,6 +1,5 @@
 .parallax {
-    /* Votre image */
-    background-image: url("../../assets/black-cubes-26201.jpeg");
+    background-image: url("../../assets/blue-design-black-background.png");
     height: 500px;
     text-align: center;
     background-attachment: fixed;
@@ -12,26 +11,44 @@
 }
 
 h2 {
-    color: white;
     font-size: 2.5rem;
-    margin-top: 4rem;
 }
 
 .about__container {
     display: grid;
-    align-items: center;
-    width: 50%;
+    grid-template-columns: 50% 50%;
+    padding: 4rem;
 }
 
 .about__content {
-    text-align: center;
+    background-color: #000;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.about__me {
+    width: 38%;
+    border-radius: 2rem;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
 }
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-top: 1.8rem;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 0.5rem;
+}
+
+#contact {
+    text-align: center;
 }
 
 .about__card {

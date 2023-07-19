@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../../assets/data.json'
+import clients from '../../assets/clients.json'
 import './portfolio.css'
 
 const tabs = [...document.querySelectorAll('.tab')]
@@ -55,7 +56,7 @@ function arrowNavigation(e) {
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className="titlePortfolio">Portfolio</h2>
 
       <div className="tabs">
         <div
@@ -72,7 +73,7 @@ const Portfolio = () => {
             tabIndex="0"
             className="tab active-tab"
           >
-            React
+            Projets Github
           </button>
           <button
             role="tab"
@@ -83,7 +84,7 @@ const Portfolio = () => {
             tabIndex="-1"
             className="tab"
           >
-            Javascript
+            Projets Clients
           </button>
           <button
             role="tab"
@@ -104,14 +105,26 @@ const Portfolio = () => {
           aria-labelledby="tab-1"
           className="tab-content active-tab-content"
         >
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            voluptates laudantium nihil perspiciatis qui voluptatum explicabo,
-            nemo dignissimos id harum enim earum minus est vel, ad iure ab
-            provident quae temporibus voluptatem quibusdam fuga vero commodi! At
-            culpa quidem quam libero atque. Maiores esse ut earum rerum ad,
-            alias dolorum!
-          </p>
+          <div className="portfolio__container">
+            {data.map(({ id, image, title, github, demo }) => {
+              return (
+                <article key={id} className="portfolio__item">
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item-cta">
+                    <a href={github} className="btn" target="_blank">
+                      Github
+                    </a>
+                    <a href={demo} className="btn btn-primary" target="_blank">
+                      Live Demo
+                    </a>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
         </div>
 
         <div
@@ -121,19 +134,41 @@ const Portfolio = () => {
           aria-labelledby="tab-2"
           className="tab-content"
         >
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus nemo eveniet alias quo, dolor quisquam ut a eligendi
-            vero, consequatur, quis cum. Saepe esse debitis ducimus? Quod fugiat
-            obcaecati veritatis amet voluptatum doloribus neque commodi qui
-            quasi illo eum placeat odio ipsam, at, tempore accusamus dicta
-            deleniti explicabo! Quisquam ullam minima iure! Assumenda adipisci
-            consequuntur soluta provident alias fuga quidem ad aperiam magnam
-            nesciunt quibusdam, et qui. Omnis dignissimos pariatur consequatur
-            eos aut, iste voluptatum!
-          </p>
+          <div className="portfolio__container">
+            {clients.map(({ id, image, title, github, demo }) => {
+              return (
+                <article key={id} className="portfolio__item">
+                  <div className="card1">
+                    <div className="portfolio__item-image">
+                      <img src={image} alt={title} />
+                    </div>
+                    <h3>{title}</h3>
+                    <div className="portfolio__item-cta">
+                      <a href={github} className="btn" target="_blank">
+                        Github
+                      </a>
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
+                  </div>
+                  <div className="card2">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Inventore, iste enim natus, expedita eveniet nemo ratione
+                      pariatur voluptas explicabo repellendus reprehenderit, eos
+                      esse amet est magnam facere deleniti neque adipisci!
+                    </p>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
         </div>
-
         <div
           id="panel-3"
           role="tabpanel"
@@ -151,27 +186,6 @@ const Portfolio = () => {
             laudantium maxime eaque consequuntur veritatis!
           </p>
         </div>
-      </div>
-
-      <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
-          return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          )
-        })}
       </div>
     </section>
   )
