@@ -10,8 +10,8 @@
     flex-direction: column;
 }
 
-h2 {
-    font-size: 2.5rem;
+#about {
+    margin-top: 8rem;
 }
 
 .about__container {
@@ -46,6 +46,36 @@ h2 {
     grid-template-columns: repeat(1, 2fr);
     gap: 0.5rem;
 }
+
+h2 {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 26px;
+    font-family: georgia;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    width: 3em;
+    border-bottom: rgba(255, 255, 255, 0.3) solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2:before {
+    margin-left: -100%;
+    margin-right: 3em
+}
+
+h2:after {
+    margin-right: -100%;
+    margin-left: 3em;
+}
+
 
 #contact {
     text-align: center;
