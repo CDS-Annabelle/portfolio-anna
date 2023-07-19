@@ -1,0 +1,124 @@
+.parallax {
+    background-image: url("../../assets/back-red.png");
+    height: 500px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    margin-top: 8rem;
+}
+
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10rem 8rem;
+    align-items: center;
+}
+
+.aboutContent {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.aboutMe {
+    width: 25%;
+    border-radius: 0.2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    justify-self: center;
+}
+
+.aboutMeImage {
+    border-radius: 0.2rem;
+    overflow: hidden;
+    transform: rotate(7deg);
+    transition: var(--transition);
+}
+
+.aboutMeImage:hover {
+    transform: rotate(0);
+}
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 0.5rem;
+}
+
+h2 {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1em 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 26px;
+    font-family: georgia;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    width: 3em;
+    border-bottom: rgba(255, 255, 255, 0.3) solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h2:before {
+    margin-left: -100%;
+    margin-right: 3em
+}
+
+h2:after {
+    margin-right: -100%;
+    margin-left: 3em;
+}
+
+
+.aboutContent p {
+    margin: 1rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+
+    .aboutMe {
+        width: 40%;
+        margin: 2rem auto 4rem;
+    }
+
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+    .aboutMe {
+        width: 35%;
+        margin: 3rem auto -2rem;
+    }
+
+    .aboutCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutContainer {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .aboutContent {
+        padding: 1rem;
+    }
+
+    .aboutContent p {
+        margin: 0.4rem 0;
+        text-align: left;
+    }
+}
