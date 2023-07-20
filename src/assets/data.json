@@ -1,28 +1,23 @@
 [
   {
     "id": 1,
-    "image": "./portfolio5.jpg",
-    "title": "React : react-router / slide ",
+    "image": "https://creation-de-site.eu/portfolio5.jpg",
+    "title": "Kasa : projet React ",
     "github": "https://github.com/CDS-Annabelle/kasa",
-    "demo": "#",
-    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Cette application a été réalisé avec React et a mis en avant les composants et les routes."
+    "text": "Kasa est un projet développé avec React. Cette application a permis de comprendre la structure de React avec ses composants ainsi que les routes React Router."
   },
-
   {
     "id": 2,
-    "image": "./portfolio6.jpg",
-    "title": "Javascript : EventListener / API ",
+    "image": "https://creation-de-site.eu/portfolio6.jpg",
+    "title": "Sophie bluel : projet Javascript  ",
     "github": "https://github.com/CDS-Annabelle/portfolio-architecte",
-    "demo": "#",
-    "text": "Le projet 'Sophie Bluel' a été réalisé dans le cadre de ma formation OpenClassroom. L'application a été entièrement codée en Javascript et a mis en avant : la manipulation des éléments du DOM, les gestionnaires d'évènement et l'appel à l'API avec fetch."
+    "text": "Sophie Bluel est un projet en Javascript. Cette application a mis en avant la manipulation des éléments du DOM, les évènements ainsi que les appels à l'API avec fetch."
   },
-
   {
     "id": 3,
-    "image": "./portfolio5.jpg",
-    "title": "React : react-router / slide ",
-    "github": "https://github.com/CDS-Annabelle/kasa",
-    "demo": "#",
-    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Cette application a été réalisé avec React et a mis en avant les composants et les routes."
+    "image": "https://creation-de-site.eu/ohmyfood.jpg",
+    "title": "Ohmyfood : projet HTML / SASS  ",
+    "github": "https://github.com/CDS-Annabelle/ohmyfood",
+    "text": "Ohmyfood est un projet en HTML / CSS. Cette application a mis en avant l'intégration en mobile first et la mise en oeuvre des animations CSS avec SASS."
   }
 ]

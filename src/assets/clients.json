@@ -1,23 +1,23 @@
 [
   {
-    "id": 4,
-    "image": "./portfolio1.jpg",
+    "id": 1,
+    "image": "https://creation-de-site.eu/portfolio1.jpg",
     "title": "Wordpress : design / développement / Maintenance",
-    "demo": "https://starmusic-production.com/",
-    "text": "Lorem "
+    "demo": "#",
+    "text": "Le site Starmusic Production, spécialisé dans l'organisation des spectacles, a été réalisé avec Wordpress. Création de la charte graphique, mise en place du CMS et ses plugins necessaires, réfrencement et suivi  "
   },
   {
-    "id": 5,
-    "image": "./portfolio2.jpg",
+    "id": 2,
+    "image": "https://creation-de-site.eu/portfolio2.jpg",
     "title": "Wordpress : design / développement / Maintenance",
     "demo": "https://www.g2f-conseil.com/",
-    "text": "Lorem "
+    "text": "Le site G2FConseil, spécialisé dans le recrutement, a été réalisé avec Wordpress. Création de la charte graphique, mise en place du CMS et ses plugins necessaires, référencement et suivi.  "
   },
   {
-    "id": 6,
-    "image": "./portfolio3.jpg",
+    "id": 3,
+    "image": "https://creation-de-site.eu/portfolio3.jpg",
     "title": "Woocommerce : design / développement / Maintenance",
     "demo": "https://my-little-ceremonie.com/",
-    "text": "Lorem "
+    "text": "Le site Mylittle cérémonie, spécialisé dans les robes de cérémonie pour enfant, a été réalisé avec Wordpress / Woocommerce.    Création de la charte graphique, mise en place du CMS et ses plugins necessaires, référencement et suivi.  "
   }
 ]
