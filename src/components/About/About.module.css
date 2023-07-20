@@ -1,24 +1,21 @@
 .parallax {
     background-image: url("../../assets/back-red.png");
-    height: 500px;
+    height: 700px;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-}
-
-#about {
-    margin-top: 8rem;
+    justify-content: center;
+    padding-bottom: 15rem;
+    padding-top: 20rem;
 }
 
 .aboutContainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 10rem 8rem;
+    display: flex;
     align-items: center;
+    max-width: 1000px;
 }
 
 .aboutContent {
@@ -39,6 +36,8 @@
     overflow: hidden;
     transform: rotate(7deg);
     transition: var(--transition);
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 .aboutMeImage:hover {
@@ -51,38 +50,10 @@
     gap: 0.5rem;
 }
 
-h2 {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 1em 0;
-    text-align: center;
-    overflow: hidden;
-    font-size: 26px;
-    font-family: georgia;
-}
-
-h2:before,
-h2:after {
-    content: '';
-    width: 3em;
-    border-bottom: rgba(255, 255, 255, 0.3) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-h2:before {
-    margin-left: -100%;
-    margin-right: 3em
-}
-
-h2:after {
-    margin-right: -100%;
-    margin-left: 3em;
-}
-
-
 .aboutContent p {
     margin: 1rem 0 2.6rem;
     color: var(--color-light);
+    font-size: 1.1rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
