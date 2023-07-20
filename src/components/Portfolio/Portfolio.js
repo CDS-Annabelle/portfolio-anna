@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from '../../assets/data.json'
 import clients from '../../assets/clients.json'
-import './portfolio.css'
+import styles from './Portfolio.module.css'
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState(0)
@@ -12,13 +12,13 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2 className="titlePortfolio">Portfolio</h2>
+      <h2 className={styles.titlePortfolio}>Portfolio</h2>
 
-      <div className="tabs">
+      <div className={styles.tabs}>
         <div
           role="tablist"
           aria-label="tabs component"
-          className="tabs-btn-container"
+          className={styles.tabsBtnContainer}
         >
           <button
             role="tab"
@@ -27,7 +27,9 @@ const Portfolio = () => {
             type="button"
             aria-selected={activeTab === 0 ? 'true' : 'false'}
             tabIndex={activeTab === 0 ? '0' : '-1'}
-            className={activeTab === 0 ? 'tab active-tab' : 'tab'}
+            className={
+              activeTab === 0 ? `${styles.tab} ${styles.activeTab}` : styles.tab
+            }
             onClick={() => handleTabClick(0)}
           >
             Projets Perso
@@ -39,7 +41,9 @@ const Portfolio = () => {
             type="button"
             aria-selected={activeTab === 1 ? 'true' : 'false'}
             tabIndex={activeTab === 1 ? '0' : '-1'}
-            className={activeTab === 1 ? 'tab active-tab' : 'tab'}
+            className={
+              activeTab === 1 ? `${styles.tab} ${styles.activeTab}` : styles.tab
+            }
             onClick={() => handleTabClick(1)}
           >
             Projets Clients
@@ -52,22 +56,24 @@ const Portfolio = () => {
           tabIndex="0"
           aria-labelledby="tab-1"
           className={
-            activeTab === 0 ? 'tab-content active-tab-content' : 'tab-content'
+            activeTab === 0
+              ? `${styles.tabContent} ${styles.activeTabContent}`
+              : styles.tabContent
           }
         >
-          <div className="portfolio__container">
+          <div className={styles.portfolioContainer}>
             {data.map(({ id, image, title, github, text }) => {
               return (
-                <article key={id} className="portfolio__item">
-                  <div className="card1">
-                    <div className="portfolio__item-image">
+                <article key={id} className={styles.portfolioItem}>
+                  <div className={styles.card1}>
+                    <div className={styles.portfolioItemImage}>
                       <img src={image} alt={title} />
                     </div>
                     <h3>{title}</h3>
-                    <div className="portfolio__item-cta">
+                    <div className={styles.portfolioItemCta}>
                       <a
                         href={github}
-                        className="btn"
+                        className={styles.btn}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -75,7 +81,7 @@ const Portfolio = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="card2">
+                  <div className={styles.card2}>
                     <p>{text}</p>
                   </div>
                 </article>
@@ -90,22 +96,24 @@ const Portfolio = () => {
           tabIndex="0"
           aria-labelledby="tab-2"
           className={
-            activeTab === 1 ? 'tab-content active-tab-content' : 'tab-content'
+            activeTab === 1
+              ? `${styles.tabContent} ${styles.activeTabContent}`
+              : styles.tabContent
           }
         >
-          <div className="portfolio__container">
+          <div className={styles.portfolioContainer}>
             {clients.map(({ id, image, title, demo, text }) => {
               return (
-                <article key={id} className="portfolio__item">
-                  <div className="card1">
-                    <div className="portfolio__item-image">
+                <article key={id} className={styles.portfolioItem}>
+                  <div className={styles.card1}>
+                    <div className={styles.portfolioItemImage}>
                       <img src={image} alt={title} />
                     </div>
                     <h3>{title}</h3>
-                    <div className="portfolio__item-cta">
+                    <div className={styles.portfolioItemCta}>
                       <a
                         href={demo}
-                        className="btn btn-primary"
+                        className={styles.btnPrimary}
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -113,7 +121,7 @@ const Portfolio = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="card2">
+                  <div className={styles.card2}>
                     <p>{text}</p>
                   </div>
                 </article>
