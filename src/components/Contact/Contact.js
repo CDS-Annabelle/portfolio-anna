@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import styles from './Contact.module.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -24,12 +24,12 @@ const Contact = () => {
     <section id="contact">
       <h2>Contactez-moi</h2>
 
-      <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
+      <div className={styles.contactContainer}>
+        <div className={styles.contactOptions}>
+          <article className={styles.contactOption}>
+            <MdOutlineEmail className={styles.contactOptionIcon} />
             <h4>Pour toutes demandes</h4>
-            <span className="sendMessage">Envoyez-moi un message</span>
+            <span className={styles.sendMessage}>Envoyez-moi un message</span>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
@@ -47,7 +47,7 @@ const Contact = () => {
             placeholder="Votre message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className={styles.btnPrimary}>
             Envoyez
           </button>
         </form>
