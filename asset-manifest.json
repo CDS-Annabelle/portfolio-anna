@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CDS-Annabelle/portfolio-anna/static/css/main.3e87a4c2.css",
+    "main.js": "/CDS-Annabelle/portfolio-anna/static/js/main.0df2a3f3.js",
+    "static/media/back-red.png": "/CDS-Annabelle/portfolio-anna/static/media/back-red.95a89a5a0cbe61342a25.png",
+    "static/media/picture-anna.jpg": "/CDS-Annabelle/portfolio-anna/static/media/picture-anna.befc114ba484abaaf9d3.jpg",
+    "index.html": "/CDS-Annabelle/portfolio-anna/index.html",
+    "main.3e87a4c2.css.map": "/CDS-Annabelle/portfolio-anna/static/css/main.3e87a4c2.css.map",
+    "main.0df2a3f3.js.map": "/CDS-Annabelle/portfolio-anna/static/js/main.0df2a3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e87a4c2.css",
+    "static/js/main.0df2a3f3.js"
+  ]
+}
