@@ -62,7 +62,7 @@ const Portfolio = () => {
           }
         >
           <div className={styles.portfolioContainer}>
-            {data.map(({ id, image, title, github, text }) => {
+            {data.map(({ id, image, title, github, demo, text }) => {
               return (
                 <article key={id} className={styles.portfolioItem}>
                   <div className={styles.card1}>
@@ -78,6 +78,14 @@ const Portfolio = () => {
                         rel="noreferrer"
                       >
                         Github
+                      </a>
+                      <a
+                        href={demo}
+                        className={styles.btnPrimary}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live Demo
                       </a>
                     </div>
                   </div>

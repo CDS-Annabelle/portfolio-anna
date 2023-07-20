@@ -19,5 +19,26 @@
     "title": "Ohmyfood : projet HTML / SASS  ",
     "github": "https://github.com/CDS-Annabelle/ohmyfood",
     "text": "Ohmyfood est un projet en HTML / CSS. Cette application a mis en avant l'intégration en mobile first et la mise en oeuvre des animations CSS avec SASS."
+  },
+  {
+    "id": 4,
+    "image": "https://creation-de-site.eu/cds.jpg",
+    "title": "CDS, le blog du développeur: site perso  ",
+    "demo": "https://creation-de-site.eu/les-conditions-en-php-if/",
+    "text": "CDS création de site, est un site perso que j'ai réalisé en 2020 avec Wordpress. De nombreux tutos, alliant théorie et pratique, sont présent pour les intégrateurs et développeur web."
+  },
+  {
+    "id": 5,
+    "image": "https://creation-de-site.eu/argentbank.jpg",
+    "title": "ArgentBank : projet React",
+    "github": "https://github.com/CDS-Annabelle/ArgentBank",
+    "text": "ArgentBank est un projet développé avec React et Redux-Toolkit. Il s'agissait ici d'implémenter le Frontend d'une application bancaire. Un modèle d'API Swagger a également été créé afin de spécifier les endpoints nécessaires pour l'évolution de cette application."
+  },
+  {
+    "id": 6,
+    "image": "https://creation-de-site.eu/quintepool.jpg",
+    "title": "Quinte-Pool : site perso  ",
+    "demo": "https://quinte-pool.fr/",
+    "text": "Quinte-Pool, site d'analyse de courses de plat est un site perso que j'ai réalisé en 2014. En PHP et Sql dans un premier temps, puis sous Wordpress."
   }
 ]
