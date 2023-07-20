@@ -3,42 +3,16 @@
     "id": 1,
     "image": "./portfolio5.jpg",
     "title": "React : react-router / slide ",
-    "github": "https://github.com",
-    "demo": "#"
+    "github": "https://github.com/CDS-Annabelle/kasa",
+    "demo": "#",
+    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Ma première application avec React."
   },
   {
     "id": 2,
     "image": "./portfolio6.jpg",
-    "title": "React : API / EventListeners / DOM ",
-    "github": "https://github.com",
-    "demo": "#"
-  },
-  {
-    "id": 3,
-    "image": "./portfolio6.jpg",
-    "title": "React : API / EventListeners / DOM ",
-    "github": "https://github.com",
-    "demo": "#"
-  },
-  {
-    "id": 4,
-    "image": "./portfolio6.jpg",
-    "title": "React : API / EventListeners / DOM ",
-    "github": "https://github.com",
-    "demo": "#"
-  },
-  {
-    "id": 5,
-    "image": "./portfolio6.jpg",
-    "title": "React : API / EventListeners / DOM ",
-    "github": "https://github.com",
-    "demo": "#"
-  },
-  {
-    "id": 6,
-    "image": "./portfolio6.jpg",
-    "title": "React : API / EventListeners / DOM ",
-    "github": "https://github.com",
-    "demo": "#"
+    "title": "Javascript : EventListener / API ",
+    "github": "https://github.com/CDS-Annabelle/portfolio-architecte",
+    "demo": "#",
+    "text": "Lorem "
   }
 ]

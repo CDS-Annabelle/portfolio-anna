@@ -73,7 +73,7 @@ const Portfolio = () => {
             tabIndex="0"
             className="tab active-tab"
           >
-            Projets Github
+            Projets Perso
           </button>
           <button
             role="tab"
@@ -106,20 +106,29 @@ const Portfolio = () => {
           className="tab-content active-tab-content"
         >
           <div className="portfolio__container">
-            {data.map(({ id, image, title, github, demo }) => {
+            {data.map(({ id, image, title, github, demo, text }) => {
               return (
                 <article key={id} className="portfolio__item">
-                  <div className="portfolio__item-image">
-                    <img src={image} alt={title} />
+                  <div className="card1">
+                    <div className="portfolio__item-image">
+                      <img src={image} alt={title} />
+                    </div>
+                    <h3>{title}</h3>
+                    <div className="portfolio__item-cta">
+                      <a href={github} className="btn" target="_blank">
+                        Github
+                      </a>
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
                   </div>
-                  <h3>{title}</h3>
-                  <div className="portfolio__item-cta">
-                    <a href={github} className="btn" target="_blank">
-                      Github
-                    </a>
-                    <a href={demo} className="btn btn-primary" target="_blank">
-                      Live Demo
-                    </a>
+                  <div className="card2">
+                    <p>{text}</p>
                   </div>
                 </article>
               )
@@ -168,23 +177,6 @@ const Portfolio = () => {
               )
             })}
           </div>
-        </div>
-        <div
-          id="panel-3"
-          role="tabpanel"
-          tabIndex="0"
-          aria-labelledby="tab-3"
-          className="tab-content"
-        >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-            facere ducimus quas harum provident assumenda atque delectus odio.
-            Blanditiis totam optio vitae placeat alias. Fugiat magnam cupiditate
-            ab ipsum qui sapiente pariatur doloribus reiciendis adipisci enim
-            aliquam vero reprehenderit a quibusdam quas, dolores, debitis cumque
-            dolor ut atque voluptatem nobis voluptatibus velit accusamus! A ea
-            laudantium maxime eaque consequuntur veritatis!
-          </p>
         </div>
       </div>
     </section>
