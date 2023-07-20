@@ -1,26 +1,23 @@
 [
   {
-    "id": 1,
+    "id": 4,
     "image": "./portfolio1.jpg",
     "title": "Wordpress : design / développement / Maintenance",
-    "github": "https://github.com",
-    "demo": "#",
+    "demo": "https://starmusic-production.com/",
     "text": "Lorem "
   },
   {
-    "id": 2,
+    "id": 5,
     "image": "./portfolio2.jpg",
     "title": "Wordpress : design / développement / Maintenance",
-    "github": "https://github.com",
-    "demo": "#",
+    "demo": "https://www.g2f-conseil.com/",
     "text": "Lorem "
   },
   {
-    "id": 3,
+    "id": 6,
     "image": "./portfolio3.jpg",
     "title": "Woocommerce : design / développement / Maintenance",
-    "github": "https://github.com",
-    "demo": "#",
+    "demo": "https://my-little-ceremonie.com/",
     "text": "Lorem "
   }
 ]

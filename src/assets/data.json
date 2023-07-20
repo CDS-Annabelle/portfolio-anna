@@ -5,14 +5,24 @@
     "title": "React : react-router / slide ",
     "github": "https://github.com/CDS-Annabelle/kasa",
     "demo": "#",
-    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Ma première application avec React."
+    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Cette application a été réalisé avec React et a mis en avant les composants et les routes."
   },
+
   {
     "id": 2,
     "image": "./portfolio6.jpg",
     "title": "Javascript : EventListener / API ",
     "github": "https://github.com/CDS-Annabelle/portfolio-architecte",
     "demo": "#",
-    "text": "Lorem "
+    "text": "Le projet 'Sophie Bluel' a été réalisé dans le cadre de ma formation OpenClassroom. L'application a été entièrement codée en Javascript et a mis en avant : la manipulation des éléments du DOM, les gestionnaires d'évènement et l'appel à l'API avec fetch."
+  },
+
+  {
+    "id": 3,
+    "image": "./portfolio5.jpg",
+    "title": "React : react-router / slide ",
+    "github": "https://github.com/CDS-Annabelle/kasa",
+    "demo": "#",
+    "text": "Le projet Kasa a été réalisé dans le cadre de ma formation OpenClassroom. Cette application a été réalisé avec React et a mis en avant les composants et les routes."
   }
 ]

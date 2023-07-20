@@ -76,4 +76,10 @@ textarea {
     form {
         width: 100%;
     }
+
+    .contact__options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

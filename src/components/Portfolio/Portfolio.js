@@ -144,7 +144,7 @@ const Portfolio = () => {
           className="tab-content"
         >
           <div className="portfolio__container">
-            {clients.map(({ id, image, title, github, demo }) => {
+            {clients.map(({ id, image, title, demo, text }) => {
               return (
                 <article key={id} className="portfolio__item">
                   <div className="card1">
@@ -153,9 +153,6 @@ const Portfolio = () => {
                     </div>
                     <h3>{title}</h3>
                     <div className="portfolio__item-cta">
-                      <a href={github} className="btn" target="_blank">
-                        Github
-                      </a>
                       <a
                         href={demo}
                         className="btn btn-primary"
@@ -166,12 +163,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <div className="card2">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Inventore, iste enim natus, expedita eveniet nemo ratione
-                      pariatur voluptas explicabo repellendus reprehenderit, eos
-                      esse amet est magnam facere deleniti neque adipisci!
-                    </p>
+                    <p>{text} </p>
                   </div>
                 </article>
               )
