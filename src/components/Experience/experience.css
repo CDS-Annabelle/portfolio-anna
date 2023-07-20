@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  padding: 40px;
 }
 
 .experience__container>div {
@@ -70,5 +71,15 @@
   .experience__container>div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+
+  .experience__details {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 1.0rem;
   }
 }
