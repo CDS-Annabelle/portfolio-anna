@@ -1,7 +1,7 @@
 .container.contact__container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 41%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contact__options {
@@ -59,22 +59,17 @@ textarea {
     color: var(--color-white);
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+/* ================ MEDIA QUERIES (max 1024) ================= */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
-        grid-template-columns: 1fr;
         gap: 2rem;
-    }
-}
-
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
-    .container.contact__container {
-        width: var(--container-width-sm);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     form {
-        width: 100%;
+        width: 70%;
     }
 
     .contact__options {
@@ -82,4 +77,17 @@ textarea {
         align-items: center;
         justify-content: center;
     }
+
 }
+
+/* ================ MEDIA QUERIES (max 768) ================= */
+@media screen and (max-width: 768px) {
+
+
+    #contact {
+        margin-top: 1rem;
+    }
+}
+
+/* ================ MEDIA QUERIES (max 468) ================= */
+@media screen and (max-width: 468px) {}
