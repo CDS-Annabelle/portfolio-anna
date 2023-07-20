@@ -58,6 +58,32 @@
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
+    .parallax {
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+    }
+
+    .aboutContainer {
+        max-width: 750px;
+    }
+
+    .aboutMe {
+        width: 40%;
+        margin: 2rem auto 4rem;
+    }
+
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 768px) {
+    .parallax {
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+    }
+
+    .aboutContainer {
+        max-width: 600px;
+    }
 
     .aboutMe {
         width: 40%;
@@ -67,7 +93,7 @@
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 468px) {
     .aboutMe {
         width: 35%;
         margin: 3rem auto -2rem;
@@ -82,14 +108,16 @@
         display: flex;
         padding: 1rem;
         flex-direction: column;
-    }
-
-    .aboutContent {
-        padding: 1rem;
+        width: 100%;
     }
 
     .aboutContent p {
-        margin: 0.4rem 0;
+        margin: 0;
         text-align: left;
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        padding: 1em 0em 0.2em 0;
     }
 }
