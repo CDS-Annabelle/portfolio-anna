@@ -2,22 +2,43 @@
   {
     "id": 1,
     "image": "https://creation-de-site.eu/portfolio1.jpg",
-    "title": "Wordpress : design / développement / Maintenance",
+    "title": "StarMusic Production, site Wordpress",
     "demo": "#",
     "text": "Le site Starmusic Production, spécialisé dans l'organisation des spectacles, a été réalisé avec Wordpress. Création de la charte graphique, mise en place du CMS et ses plugins necessaires, réfrencement et suivi  "
   },
   {
     "id": 2,
     "image": "https://creation-de-site.eu/portfolio2.jpg",
-    "title": "Wordpress : design / développement / Maintenance",
+    "title": "G2F-Conseil, site Wordpress",
     "demo": "https://www.g2f-conseil.com/",
     "text": "Le site G2FConseil, spécialisé dans le recrutement, a été réalisé avec Wordpress. Création de la charte graphique, mise en place du CMS et ses plugins necessaires, référencement et suivi.  "
   },
   {
     "id": 3,
     "image": "https://creation-de-site.eu/portfolio3.jpg",
-    "title": "Woocommerce : design / développement / Maintenance",
+    "title": "My litte ceremonie, site Woocommerce",
     "demo": "https://my-little-ceremonie.com/",
-    "text": "Le site Mylittle cérémonie, spécialisé dans les robes de cérémonie pour enfant, a été réalisé avec Wordpress / Woocommerce.    Création de la charte graphique, mise en place du CMS et ses plugins necessaires, référencement et suivi.  "
+    "text": "Le site Mylittle cérémonie, spécialisé dans les robes de cérémonie pour enfant, a été réalisé avec Wordpress / Woocommerce. Création de la charte graphique, mise en place du CMS et ses plugins necessaires, référencement et suivi.  "
+  },
+  {
+    "id": 4,
+    "image": "https://creation-de-site.eu/lapanoplie.jpg",
+    "title": "La panoplie des petits: site Woocommerce",
+    "demo": "https://www.lapanopliedespetits-et-des-mamans.com/",
+    "text": "Le site la panoplie des petits et des mamans, spécialisé dans les vêtements pour enfants, est un site qui a été créé dans un premier temps sous Prestashop puis migrer sous Wordpress / Woocommerce. Design & développemnet & référencement & suivi "
+  },
+  {
+    "id": 5,
+    "image": "https://creation-de-site.eu/smartagency.jpg",
+    "title": "Smart-Agency : site Wordpress",
+    "demo": "https://smart-agency.eu/en/",
+    "text": "Le site Smart-Agency, agence d'expertise contenus multi-media, a été développé sous Joomla puis Wordpress. Site multi-langues. Design / développement / suivi.  "
+  },
+  {
+    "id": 6,
+    "image": "https://creation-de-site.eu/green.jpg",
+    "title": "Green-Ecoland : site Wordpress",
+    "demo": "https://www.greeneco-land.com/",
+    "text": "Le site Green-Ecoland, site multi-langues de services de conseil en environnement, a été développé sous Wordpress. Design & développement.  "
   }
 ]
