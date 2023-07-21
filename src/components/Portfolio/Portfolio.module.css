@@ -190,6 +190,11 @@
     .tab {
         font-size: 1.1rem;
     }
+
+    .btn {
+        padding: 0.4rem;
+    }
+
 }
 
 /* ================ MEDIA QUERIES (max 468) ================= */
@@ -203,4 +208,6 @@
     .tab {
         font-size: 0.9rem;
     }
+
+
 }
