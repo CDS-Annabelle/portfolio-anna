@@ -1,6 +1,6 @@
 .parallax {
     background-image: url("../../assets/back-red.png");
-    height: 600px;
+    height: 100vh;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
