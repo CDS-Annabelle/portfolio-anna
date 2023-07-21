@@ -1,4 +1,4 @@
-#portfolio {
+section {
     margin-top: 6rem;
 }
 
@@ -39,6 +39,19 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+.tabs {
+    background-color: #070707;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    border: 1px solid #ffffff3e;
+    color: #b7b2b2;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    margin-bottom: 3rem;
+}
+
 
 .tab {
     border: none;
@@ -120,19 +133,6 @@
     }
 }
 
-
-.tabs {
-    background-color: #070707;
-    max-width: 1400px;
-    margin: 40px auto 0;
-    border-radius: 10px;
-    border: 1px solid #ffffff3e;
-    color: #b7b2b2;
-    display: grid;
-    grid-template-rows: min-content 1fr;
-    margin-bottom: 3rem;
-}
-
 .tabsBtnContainer {
     display: flex;
     border-bottom: 1px solid #ffffff3e;
@@ -202,8 +202,8 @@
         padding: 10px;
     }
 
-    #portfolio {
-        margin-top: 2rem;
+    section {
+        margin-top: 1rem;
     }
 
     .tab {
