@@ -19,6 +19,7 @@
     "image": "https://creation-de-site.eu/ohmyfood.jpg",
     "title": "Ohmyfood : projet HTML / SASS  ",
     "github": "https://github.com/CDS-Annabelle/ohmyfood",
+    "demo": "https://cds-annabelle.github.io/ohmyfood/",
     "text": "Ohmyfood est un projet en HTML / CSS. Cette application a mis en avant l'intégration en mobile first et la mise en oeuvre des animations CSS avec SASS."
   },
   {
