@@ -112,7 +112,7 @@
 }
 
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+/* ================ MEDIA QUERIES (max 1024) ================= */
 @media screen and (max-width: 1024px) {
     .portfolioContainer {
         grid-template-columns: 1fr 1fr;
@@ -182,20 +182,20 @@
     opacity: 1;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-@media screen and (max-width: 1024px) {
+/* ================ MEDIA QUERIES (max 768) ================= */
+@media screen and (max-width: 768px) {
     .portfolioContainer {
         gap: 1.8rem;
         padding: 20px;
     }
 
     .tab {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
+/* ================ MEDIA QUERIES (max 468) ================= */
+@media screen and (max-width: 468px) {
     .portfolioContainer {
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -207,6 +207,6 @@
     }
 
     .tab {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 }
