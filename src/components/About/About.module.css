@@ -1,6 +1,6 @@
 .parallax {
     background-image: url("../../assets/back-red.png");
-    height: 700px;
+    height: 600px;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
@@ -22,6 +22,11 @@
     background-color: #1c1c1c;
     border-radius: 10px;
     padding: 15px;
+}
+
+.firstname {
+    font-size: 1.1rem;
+    color: white;
 }
 
 .aboutMe {
@@ -56,11 +61,12 @@
     font-size: 1.1rem;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+/* ================ MEDIA QUERIES (max 1024px) ================= */
 @media screen and (max-width: 1024px) {
     .parallax {
         padding-bottom: 5rem;
-        padding-top: 3rem;
+        padding-top: 15rem;
+        height: 700px;
     }
 
     .aboutContainer {
@@ -74,7 +80,7 @@
 
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+/* ================ MEDIA QUERIES (max 768px) ================= */
 @media screen and (max-width: 768px) {
     .parallax {
         padding-bottom: 5rem;
@@ -92,7 +98,7 @@
 
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+/* ================ MEDIA QUERIES (max 468px) ================= */
 @media screen and (max-width: 468px) {
     .aboutMe {
         width: 35%;
@@ -121,9 +127,4 @@
         padding: 1em 0em 0.2em 0;
     }
 
-    .parallax {
-
-        height: 600px;
-
-    }
 }

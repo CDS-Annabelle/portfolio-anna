@@ -25,6 +25,9 @@ const About = () => {
                 J'ai depuis suivi en parallèle ces deux dernières années deux
                 formations pour améliorer mes compétences en développement
                 backend et frontend.
+                <br />
+                <br />
+                <span className={styles.firstname}>Annabelle</span>
               </p>
             </div>
           </div>
