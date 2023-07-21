@@ -95,12 +95,6 @@ h5 {
   font-size: 1.2rem;
 }
 
-section {
-  margin-top: 1rem;
-}
-
-
-
 .text-light {
   color: var(--color-light);
   font-weight: 400;

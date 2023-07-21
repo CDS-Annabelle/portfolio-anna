@@ -5,7 +5,9 @@
     padding: 50px
 }
 
-
+.sectionPortfolio {
+    margin-top: 3rem;
+}
 
 .portfolioItem {
     border-radius: 2rem;
